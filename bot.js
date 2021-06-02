@@ -22,13 +22,16 @@ client.on("message", async message => {
   const comando = args.shift().toLowerCase();
 
   if(comando === "maconha") {
-    const m = await message.channel.send("Eu gosto muito");
+    const m = await message.channel.send("Eu gosto muito, não passo o beck");
   }
   if(comando === "elo") {
       const m = await message.channel.send("https://br.op.gg/summoner/userName=Midphobia");
   }
   if(comando === "cobrando") {
-      const m = await message.channel.send("Não estou te comendo");
+      const m = await message.channel.send("Não estou te comendo.");
+  }
+  if(comando === "duo") {
+    const m = await message.channel.send("https://media.discordapp.net/attachments/751078497170096151/849724353855619082/dsadasdas.png?width=510&height=676");
   }
 });
 
