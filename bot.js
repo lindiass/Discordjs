@@ -33,6 +33,12 @@ client.on("message", async message => {
   if(comando === "duo") {
     const m = await message.channel.send("https://media.discordapp.net/attachments/751078497170096151/849724353855619082/dsadasdas.png?width=510&height=676");
   }
+  if(comando === "namoro") {
+      const m = await message.channel.send("Amo minha namorada sou pet dela");
+  }
+  if(comando === "cleber") {
+      const m = await message.channel.send("Clebinblox, mais conhecido como tremzinho da fumaça. Ama um F1");
+  }
 });
 
 client.login(config.token);
