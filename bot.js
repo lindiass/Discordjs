@@ -39,6 +39,70 @@ client.on("message", async message => {
   if(comando === "cleber") {
       const m = await message.channel.send("Clebinblox, mais conhecido como tremzinho da fumaça. Ama um F1");
   }
+  if(comando === "lelo") {
+      const m = await message.channel.send("Burro pra krl");
+  }
+  if(comando === "caum") {
+      const m = await message.channel.send("https://media.discordapp.net/attachments/667933608803303439/812854849749385226/unknown.png");
+  }
+  if(comando === "fabin") {
+      const m = await message.channel.send("Cabeça de botão\n" +
+          "Cabeça de bola\n" +
+          "Abobrão\n" +
+          "Astronauta\n" +
+          "Balão mágico\n" +
+          "Big Head\n" +
+          "Cabessauro\n" +
+          "Cabeça de aço\n" +
+          "Cabeça de balão\n" +
+          "Cabeça de circulo\n" +
+          "Cabeça de cabaça\n" +
+          "Cabeça de coité\n" +
+          "Cabeça de coco\n" +
+          "Cabeça de jaca\n" +
+          "Cabeça de gás hélio\n" +
+          "Cabeça de espaço\n" +
+          "Cabeça de jerimum\n" +
+          "Cabeça de lua\n" +
+          "Cabeça de jupiter\n" +
+          "Cabeça de melancia\n" +
+          "Cabeça de martelo\n" +
+          "Cabeça de nós todos\n" +
+          "Cabeça de prego\n" +
+          "Cabeça de pirulito\n" +
+          "Cabeça de repolho\n" +
+          "Cabeça de vento\n" +
+          "Cabeça do satanás\n" +
+          "Cabeça grávida\n" +
+          "Cabeça lascada\n" +
+          "Cabeça de todos nós" +
+          "Globo terrestre\n" +
+          "Cabeça oco\n" +
+          "Cabeção\n" +
+          "Caixa d’água\n" +
+          "Cabeçoide\n" +
+          "Capacete\n" +
+          "Capô de fusca\n" +
+          "Cérebro\n" +
+          "Cebola mutante\n" +
+          "Cabeça GG Gigante\n" +
+          "Chamada na cabeça\n" +
+          "Cocão\n" +
+          "Faz sombra\n" +
+          "Fantástico mundo de Bob\n" +
+          "ET cabeção\n" +
+          "Estoura gola\n" +
+          "Espaçonave invade a terra\n" +
+          "Mega mente\n" +
+          "Maçã do amor\n" +
+          "Lula molusco\n" +
+          "Lua cheia\n" +
+          "Homer Simpson"
+      );
+      if(comando === "live") {
+          const m = await message.channel.send("https://www.twitch.tv/midphob1a")
+      }
+  }
 });
 
 client.login(config.token);
